@@ -1,0 +1,65 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/beInHospital/beInHospital",
+			"style": {
+				"navigationBarTitleText": "住院服务"
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/messageList/messageList",
+			"style": {
+				"navigationBarTitleText": "消息列表"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-s.png"
+			}, 
+			{
+				"pagePath": "pages/beInHospital/beInHospital",
+				"text": "住院服务",
+				"iconPath": "static/hospital.png",
+				"selectedIconPath": "static/hospital-s.png"
+			}, 
+			{
+				"pagePath": "pages/person/person",
+				"text": "个人中心",
+				"iconPath": "static/person.png",
+				"selectedIconPath": "static/person-s.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "#fff",
+		"navigationBarTitleText": "东莞市莞城医院",
+		"navigationBarBackgroundColor": "#1cbbb4",
+		"backgroundColor": "#F8F8F8"
+	}
+}
